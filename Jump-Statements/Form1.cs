@@ -19,6 +19,8 @@ namespace Jump_Statements
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // ************* BREAK STATEMENT *************
+
             string ivalue = "";
 
             for (int i = 0; i < 5; i++)
@@ -33,6 +35,9 @@ namespace Jump_Statements
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+            // ************* CONTINUE STATEMENT *************
+
             string ivalue = "";
 
             for (int i = 0; i < 5; i++)
@@ -47,6 +52,7 @@ namespace Jump_Statements
 
         private void button3_Click(object sender, EventArgs e)
         {
+            // ************* GO TO STATEMENT *************
             string messageText = "";
             int x = 3;
 
